@@ -1,0 +1,58 @@
+.grid {
+  display: grid;
+  grid-template-areas:
+    "b b b b b b b b"
+    "h h h h h h h h"
+    "m m m m m m m m"
+    "f f f f f f f f";
+  grid-gap: 20;
+}
+.banner {
+  grid-area: b;
+}
+header {
+  grid-area: h;
+  margin: 20px;
+}
+
+main {
+  grid-area: m;
+}
+
+footer {
+  grid-area: f;
+}
+
+/* Wide screens (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+/* Standard screens (between 992px and 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
+
+/* Tablets (between 768px and 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile phones (up to 767px) */
+@media only screen and (max-width: 767px) {
+  header nav {
+    display: none;
+  }
+  h1 {
+    font-size: 5em;
+  }
+}
