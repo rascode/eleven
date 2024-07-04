@@ -1,0 +1,89 @@
+@import "./vendor/normalize.css";
+@import "./custom/font.css";
+
+.banner {
+  background: yellow;
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+.logo {
+  font-weight: 600;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+h1 {
+  font-size: x-large;
+  text-align: center;
+  font-weight: 800;
+  font-size: 13rem;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  margin-bottom: 0.1em;
+  margin-top: 0.5em;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+}
+
+ul,
+nav {
+  list-style-type: none;
+}
+
+a.active {
+  border-bottom: 5px dotted blueviolet;
+
+  color: black;
+  font-weight: 600;
+}
+
+nav a {
+  padding: 10px 20px;
+  color: darkslategray;
+}
+
+nav.header {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-kerning: 3px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellow;
+  border-radius: 2px;
+}
+
+nav p {
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 95px;
+}
+
+footer a {
+  background-color: yellow;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.copyright {
+  text-align: center;
+  display: block;
+}
