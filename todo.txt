@@ -1,2 +1,4 @@
 // TODO: Incorporate PostCSS Processing via Viate
 // TODO: Add 11ty-vite plugin
+// TODO: Create a "Journal" template to keep track of daily project progress
+// TODO: Connect to Airtable and auto-populate 
