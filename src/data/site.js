@@ -4,7 +4,7 @@ export default {
     subtitle: 'An 11 week journey of learning 11ty by buidling together in public.',
     description: 'An 11 week journey to learn the 11ty.',
     uri: {
-        main: '11weeks.xyz', // primary site uri
+        main: 'https://11weeks.xyz', // primary site uri
         short: '' // use if you have a url shortener (we currently recommend dub.co)
     },
     keywords: [ 'eleventy', 'static site', 'open web', 'web2', 'web3', 'allthewebs'],
