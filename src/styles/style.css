@@ -1,19 +1,17 @@
 @import "./vendor/normalize.css";
 @import "./custom/grid.css";
-
 @import "./custom/font.css";
+@import "./custom/type.css";
+@import "./custom/color.css";
 
 .banner {
   background: yellow;
   display: block;
-  text-align: center;
-  padding: 20px;
 }
 
 .logo {
   font-weight: 600;
   font-size: xx-large;
-  font-style: italic;
 }
 
 header {
@@ -21,21 +19,8 @@ header {
   justify-content: space-between;
 }
 
-h1 {
-  font-size: x-large;
-  text-align: center;
-  font-weight: 800;
-  font-size: 13rem;
-  line-height: 1;
-  letter-spacing: -0.05em;
-  margin-bottom: 0.1em;
-  margin-top: 0.5em;
-}
-
 h2 {
-  font-size: x-large;
-  font-weight: 400;
-  text-align: center;
+  color: rgb(74, 74, 74);
 }
 
 ul,
@@ -44,8 +29,6 @@ nav {
 }
 
 a.active {
-  border-bottom: 5px solid greenyellow;
-
   color: black;
   font-weight: 600;
 }
@@ -56,9 +39,7 @@ nav a {
 }
 
 nav.header {
-  text-transform: uppercase;
   font-weight: 400;
-  font-kerning: 3px;
 }
 a {
   color: black;
@@ -91,26 +72,14 @@ footer a {
 
 /* Wide screens (1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-    margin: 0 auto;
-  }
 }
 
 /* Standard screens (between 992px and 1199px) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
 }
 
 /* Tablets (between 768px and 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .container {
-    max-width: 720px;
-    margin: 0 auto;
-  }
 }
 
 /* Mobile phones (up to 767px) */
@@ -119,6 +88,6 @@ footer a {
     display: none;
   }
   h1 {
-    font-size: 10em;
+    font-size: 7em;
   }
 }
