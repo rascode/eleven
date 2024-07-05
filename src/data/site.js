@@ -1,7 +1,8 @@
 export default {
     title: '11 Weeks',
-    subtitle: 'A journey of 11 weeks with the 11ty framework.  What could go right?!',
-    description: 'My Sexy 11ty Site',
+    hero: '11 Weeks x 11ty',
+    subtitle: 'An 11 week journey of learning 11ty by buidling together in public.',
+    description: 'An 11 week journey to learn the 11ty.',
     uri: {
         main: '11weeks.xyz', // primary site uri
         short: '' // use if you have a url shortener (we currently recommend dub.co)
